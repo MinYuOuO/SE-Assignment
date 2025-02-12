@@ -15,7 +15,7 @@ ttk.Label(frameMain, text="Weight (kg):", font=("Arial", 16)).grid(column=0, row
 weightEntry = ttk.Entry(frameMain)
 weightEntry.grid(column=1, row=1)
 
-ttk.Label(frameMain, text="Height (cm):", font=("Arial", 16)).grid(column=0, row=2)
+ttk.Label(frameMain, text="Height (cm/m):", font=("Arial", 16)).grid(column=0, row=2)
 heightEntry = ttk.Entry(frameMain)
 heightEntry.grid(column=1, row=2)
 
