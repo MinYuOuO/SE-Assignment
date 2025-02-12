@@ -11,21 +11,16 @@ This project is a BMI (Body Mass Index) calculator built using Python and Tkinte
 
 ## 🔧 Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bmi-calculator.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd bmi-calculator
-   ```
-3. Install dependencies (if required):
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   python main.py
-   ```
+   Github Desktop clone https://github.com/MinYuOuO/SE-Assignment.git
+   git clone git@github.com:MinYuOuO/SE-Assignment.git
+   gh repo clone MinYuOuO/SE-Assignment
+
+2. Install used library
+   pip install tk
+
+3. Run the application:
+   python Main.py
+
 
 ## 📖 Iteration Report
 ### Iteration 1: Basic BMI Calculation
@@ -43,11 +38,12 @@ This project is a BMI (Body Mass Index) calculator built using Python and Tkinte
 - Ensured proper layout and alignment of GUI components.
 
 ### Iteration 4 & 5: Updated README Documentation
-- fix iteration 3,4 and 5 wrong commit
+- fix iteration 3,4 wrong commit
+- update correct documentation
 
 ## 🌱 Branching and Merging Strategy
 We used a structured branching approach:
-- `main`: Stable version of the project.
+- `main`: Main interface of the project.
 - `feature/ui-enhancements`: Added UI improvements and styling updates.
 - `feature/error-handling`: Introduced better error handling.
 - Merging was performed via pull requests to ensure code reviews before integrating changes into the `main` branch.
@@ -57,6 +53,7 @@ We used a structured branching approach:
 - **To Do**: Listed upcoming tasks such as feature development and bug fixes.
 - **In Progress**: Tracked ongoing tasks.
 - **Done**: Marked finished tasks.
+- **Iteration**: Show iteration made.
 
 
 ## 🔗 Link to Kanban Board
