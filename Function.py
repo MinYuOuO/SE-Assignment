@@ -3,6 +3,9 @@ from tkinter import ttk
 
 def BMI_Cal(weight: int, height: float):
     try:
+        if height > 6: height /= 100 # assume height is in cm if greater than 6 meters
+        else: height = height
+
         x = weight / (height * height)
         if x < 18.5:
             return "Underweight"
@@ -12,6 +15,7 @@ def BMI_Cal(weight: int, height: float):
             return "Overweight"
         else:
             return "Obesity"
+        
     except ZeroDivisionError:
         return "Height must be greater than zero"
 
