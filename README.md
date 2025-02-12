@@ -11,15 +11,15 @@ This project is a BMI (Body Mass Index) calculator built using Python and Tkinte
 
 ## 🔧 Installation
 1. Clone the repository:
-   Github Desktop clone https://github.com/MinYuOuO/SE-Assignment.git
-   git clone git@github.com:MinYuOuO/SE-Assignment.git
-   gh repo clone MinYuOuO/SE-Assignment
+- Github Desktop clone https://github.com/MinYuOuO/SE-Assignment.git
+- git clone git@github.com:MinYuOuO/SE-Assignment.git
+- gh repo clone MinYuOuO/SE-Assignment
 
 2. Install used library
-   pip install tk
+- pip install tk
 
 3. Run the application:
-   python Main.py
+- python Main.py
 
 
 ## 📖 Iteration Report
@@ -40,6 +40,9 @@ This project is a BMI (Body Mass Index) calculator built using Python and Tkinte
 ### Iteration 4 & 5: Updated README Documentation
 - fix iteration 3,4 wrong commit
 - update correct documentation
+
+### Iteration 6: Updated Main Function
+- fix invalid calculation that set with wrong height
 
 ## 🌱 Branching and Merging Strategy
 We used a structured branching approach:
